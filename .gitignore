@@ -48,3 +48,8 @@ app.*.map.json
 .widget_preview/
 mason-lock.json
 .mason/
+android/
+ios/
+linux/
+macos/
+windows/

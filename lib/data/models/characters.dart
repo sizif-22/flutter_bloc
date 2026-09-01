@@ -4,7 +4,7 @@ class Character {
   String imageUrl;
 
   Character.fromJson(Map<String, dynamic> json)
-    : charId = json['char_id'],
+    : charId = json['id'],
       name = json['name'],
-      imageUrl = json['img'];
+      imageUrl = json['image'];
 }
